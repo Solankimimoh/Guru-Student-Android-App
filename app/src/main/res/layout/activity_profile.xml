@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipToPadding="true"
+    android:fillViewport="true">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="22dp"
+        tools:context=".ProfileActivity"
+        tools:layout_editor_absoluteY="81dp">
+
+        <ImageView
+            android:id="@+id/activity_profile_user_avatar_img"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="24dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/brand" />
+
+        <EditText
+            android:id="@+id/activity_profile_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:background="#00000000"
+            android:drawableStart="@drawable/vector_user"
+            android:drawablePadding="10dp"
+            android:text="TextView"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/activity_profile_user_avatar_img" />
+
+        <TextView
+            android:id="@+id/activity_profile_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:background="#00000000"
+            android:drawableStart="@drawable/vector_email"
+            android:drawablePadding="10dp"
+            android:text="TextView"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            app:layout_constraintStart_toStartOf="@+id/activity_profile_name"
+            app:layout_constraintTop_toBottomOf="@+id/activity_profile_name" />
+
+        <EditText
+            android:id="@+id/activity_profile_mobile"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:background="#00000000"
+            android:drawableStart="@drawable/vector_mobile"
+            android:drawablePadding="10dp"
+            android:text="TextView"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            app:layout_constraintStart_toStartOf="@+id/activity_profile_email"
+            app:layout_constraintTop_toBottomOf="@+id/activity_profile_email" />
+
+        <TextView
+            android:id="@+id/activity_profile_industry"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="23dp"
+            android:drawableStart="@drawable/vector_department"
+            android:drawablePadding="10dp"
+            android:text="Power electronics engineering"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            app:layout_constraintStart_toStartOf="@+id/activity_profile_mobile"
+            app:layout_constraintTop_toBottomOf="@+id/activity_profile_mobile" />
+
+
+        <EditText
+            android:id="@+id/activity_profile_experience"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:background="#00000000"
+            android:drawableStart="@drawable/vector_education"
+            android:drawablePadding="10dp"
+            android:text="Loading..."
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            app:layout_constraintStart_toStartOf="@+id/activity_profile_industry"
+            app:layout_constraintTop_toBottomOf="@+id/activity_profile_industry" />
+
+        <EditText
+            android:id="@+id/activity_profile_education"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:background="#00000000"
+            android:drawableStart="@drawable/vector_education"
+            android:drawablePadding="10dp"
+            android:text="Loading..."
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            app:layout_constraintStart_toStartOf="@+id/activity_profile_experience"
+            app:layout_constraintTop_toBottomOf="@+id/activity_profile_experience" />
+
+
+        <EditText
+            android:id="@+id/activity_profile_mentor_type"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:background="#00000000"
+            android:drawableStart="@drawable/vector_education"
+            android:drawablePadding="10dp"
+            android:text="Loading..."
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            app:layout_constraintStart_toStartOf="@+id/activity_profile_education"
+            app:layout_constraintTop_toBottomOf="@+id/activity_profile_education" />
+
+        <EditText
+            android:id="@+id/activity_profile_mentor_skill_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:background="#00000000"
+            android:drawableStart="@drawable/vector_education"
+            android:drawablePadding="10dp"
+            android:text="Loading..."
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            app:layout_constraintStart_toStartOf="@+id/activity_profile_mentor_type"
+            app:layout_constraintTop_toBottomOf="@+id/activity_profile_mentor_type" />
+
+        <Button
+            android:id="@+id/activity_profile_follower_btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginBottom="24dp"
+            android:background="@color/colorPrimary"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:text="Followers"
+            android:textColor="@color/colorWhite"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/activity_profile_mentor_skill_tv"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <Button
+            android:id="@+id/activity_profile_updatebtn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginBottom="24dp"
+            android:background="@color/colorPrimary"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:text="UPDATE"
+            android:textColor="@color/colorWhite"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/activity_profile_follower_btn"
+            app:layout_constraintVertical_bias="1.0" />
+
+
+    </android.support.constraint.ConstraintLayout>
+
+</ScrollView>

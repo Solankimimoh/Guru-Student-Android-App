@@ -1,0 +1,44 @@
+{
+  "project_info": {
+    "project_number": "891786961902",
+    "firebase_url": "https://gurustudent-8af2c.firebaseio.com",
+    "project_id": "gurustudent-8af2c",
+    "storage_bucket": "gurustudent-8af2c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:891786961902:android:7a901bb3a153f64c",
+        "android_client_info": {
+          "package_name": "com.example.mentor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "891786961902-42i9a14kil4bbtvsceodn4s26rhfh5tt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mentor",
+            "certificate_hash": "ae92b59d31702c9e9aecee19a800bfbfb3a03ddc"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDszaAySYKKSXDvlWSIhlblK8YjogeKgdo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "891786961902-snudakdc0dnvsjohjv8siuu7kvu8qvc7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
